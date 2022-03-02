@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  BlobenDEV:
+    image: 'bloben/app:development'
+    container_name: BlobenDEV
+    volumes:
+      - ./logs:/logs
+    env_file:
+      - .env
+    ports:
+      - '127.0.0.1:8082:80'
+    restart: always
+
+  databaseBlobenDEV:
+    image: 'postgres:13.6-bullseye'
+    container_name: databaseBlobenDEV
+    env_file:
+      - .env
+    volumes:
+      - databaseBlobenDataDEV:/var/lib/postgresql/data
+    ports:
+      - '8003:5432'
+    restart: always
+
+  redisBlobenDEV:
+    image: redis:6.2.6-bullseye
+    container_name: redisBlobenDEV
+    volumes:
+      - redisBlobenDataDEV:/data
+    ports:
+      - '127.0.0.1:6381:6379'
+    restart: always
+#
+#
+volumes:
+  databaseBlobenDataDEV:
+    name: databaseBlobenDataDEV
+  redisBlobenDataDEV:
+    name: redisBlobenDataDEV
