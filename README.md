@@ -1,6 +1,7 @@
 ## Bloben App [BETA]
 
 Self-hosted server-client Calendar application for connecting to CalDav servers.
+Added support for webcalends.
 
 #### Warning: App is in development state, don't use for critical production data
 You can use other alternatives like <a href=https://github.com/agendav/agendav>AgenDAV</a>.
@@ -20,7 +21,6 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 
 ###
 ### Roadmap:
-- webcal calendars
 - push/email notifications
 - email invites
 - E2E encrypted data
