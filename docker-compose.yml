@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   Bloben:
-    image: 'bloben/app:0.1.0'
+    image: 'bloben/app:0.1.1'
     container_name: Bloben
     volumes:
       - ./logs:/logs
