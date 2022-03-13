@@ -1,3 +1,7 @@
+## 0.2.0
+- added CalDAV tasks app
+- minor fixes
+
 ## 0.1.1
 - added CalDAV calendar settings
 - fixed event modal layout
