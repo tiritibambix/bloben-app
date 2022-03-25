@@ -29,7 +29,7 @@ services:
     volumes:
       - redisBlobenData:/data
     ports:
-      - '127.0.0.1:6380:6379'
+      - '6379'
     restart: always
 #
 #
