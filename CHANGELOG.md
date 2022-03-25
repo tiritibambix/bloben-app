@@ -1,3 +1,9 @@
+## 0.4.0
+- performance improvements for calDAV operations
+- create new event from month view
+- disabled dragging webcal events
+- added notification about new updates
+
 ## 0.3.1
 - Added option to delete user from admin dashboard
 - Minor calendar layout updates
