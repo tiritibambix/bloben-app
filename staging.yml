@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  BlobenSTAGING:
+    image: 'bloben/app:staging'
+    container_name: BlobenSTAGING
+    volumes:
+      - ./logs:/logs
+    env_file:
+      - .env
+    ports:
+      - '127.0.0.1:8083:80'
+    restart: always
+
+  databaseBlobenSTAGING:
+    image: 'postgres:13.6-bullseye'
+    container_name: databaseBlobenSTAGING
+    env_file:
+      - .env
+    volumes:
+      - databaseBlobenDataSTAGING:/var/lib/postgresql/data
+    ports:
+      - '8004:5432'
+    restart: always
+
+  redisBlobenSTAGING:
+    image: redis:6.2.6-bullseye
+    container_name: redisBlobenSTAGING
+    volumes:
+      - redisBlobenDataSTAGING:/data
+    ports:
+      - '6379'
+    restart: always
+#
+#
+volumes:
+  databaseBlobenDataSTAGING:
+    name: databaseBlobenDataSTAGING
+  redisBlobenDataSTAGING:
+    name: redisBlobenDataSTAGING
