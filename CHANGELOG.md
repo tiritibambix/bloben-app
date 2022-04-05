@@ -1,3 +1,13 @@
+## 0.5.0
+- Added option to hide calendars from settings
+- Removed server url input from login page for simplicity
+- Added edit modal for webcalendars
+- Added color picker for webcalendars
+- Change CalDAV calendar name or color (not synced with CalDAV server)
+- Pick custom color for event
+- Improved performance for fetching events
+- Updated base Debian image
+
 ## 0.4.0
 - performance improvements for calDAV operations
 - create new event from month view
