@@ -1,3 +1,10 @@
+## 0.5.1
+- Added current time line
+- UI polishing 
+- Added alert warning when opening app in Firefox incognito mode
+- Initial view is scrolled to current hour
+- Better error handling for event parsing with more informative logs
+
 ## 0.5.0
 - Added option to hide calendars from settings
 - Removed server url input from login page for simplicity
