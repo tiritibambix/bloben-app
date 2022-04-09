@@ -1,3 +1,6 @@
+## 0.5.2
+- Fixed wrong layout with 12-hour calendar settings
+
 ## 0.5.1
 - Added current time line
 - UI polishing 
