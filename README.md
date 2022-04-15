@@ -26,7 +26,7 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 
 ###
 ### Roadmap:
-- push/email notifications
+- notifications
 - E2E encrypted data
 - notes
 - mobile view
