@@ -5,7 +5,11 @@ Self-hosted server-client Calendar and Tasks application for connecting to CalDa
 #### Warning: App is in development state, don't use for critical production data
 You can use other alternatives like <a href=https://github.com/agendav/agendav>AgenDAV</a>.
 
-###
+### Features
+- CalDAV calendars
+- email invites
+- webcalendars
+
 ### <a href =https://docs.bloben.com/docs/intro>Installation</a><br>
 ### <a href ='https://demo.bloben.com/api/v1/users/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/calendar?demo=true'>Demo Calendar</a><br>
 ### <a href ='https://demo.bloben.com/api/v1/users/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/tasks?demo=true'>Demo Tasks</a><br>
@@ -22,7 +26,9 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 
 ###
 ### Roadmap:
-- push/email notifications
-- email invites
+- notifications
 - E2E encrypted data
 - notes
+- mobile view
+- dark theme
+- offline support
