@@ -1,3 +1,11 @@
+## 0.6.0
+- Added notifications
+- Sync calendar settings across devices
+- Added option to choose default calendar
+- Fixed bug preventing updates on event with alarms
+- Refactored agenda view
+- Added option to show week numbers in month and days views
+
 ## 0.5.2
 - Fixed wrong layout with 12-hour calendar settings
 
