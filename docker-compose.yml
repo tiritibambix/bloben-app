@@ -20,7 +20,7 @@ services:
     volumes:
       - databaseBlobenData:/var/lib/postgresql/data
     ports:
-      - '8002:5432'
+      - '5432'
     restart: always
 
   redisBloben:
