@@ -1,3 +1,13 @@
+
+## 0.6.1
+- Added resizing events in days view
+- Improved drag to create new event 
+- Added dragging overflowing events in month view 
+- Fixed not logging out when session has expired 
+- Fixed showing wrong webcal exceptions
+- Improved parsing event dates
+- Default redirect to calendar application from domain root
+
 ## 0.6.0
 - Added notifications
 - Sync calendar settings across devices
