@@ -1,4 +1,11 @@
 
+## 0.7.0
+- Added dark theme
+- Optimized text color on events for better contrast
+- Added drawer for quick access to show/hide calendars
+- Fixed method in email invites
+- UI changes
+
 ## 0.6.1
 - Added resizing events in days view
 - Improved drag to create new event 
