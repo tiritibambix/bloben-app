@@ -1,4 +1,7 @@
 
+## 0.7.1
+- Added option for redis connection with url
+
 ## 0.7.0
 - Added dark theme
 - Optimized text color on events for better contrast
