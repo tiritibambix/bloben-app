@@ -1,4 +1,8 @@
 
+## 0.7.2
+- Added option to set periodic checks for new versions from admin dashboard
+- Changed demo redirect
+
 ## 0.7.1
 - Added option for redis connection with url
 
