@@ -1,4 +1,12 @@
 
+## 0.8.0
+- Added CalDAV exceptions for updating/deleting repeated events
+- User can choose if email invite will be sent to added attendees
+- Added daily limit for sending emails, adjustable by admin
+- Admin can disable sending emails for certain users
+- Fixed displaying exceptions and recurrence events
+- Fixed missing vertical lines in some browsers
+
 ## 0.7.2
 - Added option to set periodic checks for new versions from admin dashboard
 - Changed demo redirect
