@@ -1,4 +1,7 @@
 
+## 0.8.1
+- Fixed bug with parsing multiple exdates in same row 
+
 ## 0.8.0
 - Added CalDAV exceptions for updating/deleting repeated events
 - User can choose if email invite will be sent to added attendees
