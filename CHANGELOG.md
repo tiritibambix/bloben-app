@@ -1,6 +1,9 @@
 
+## 0.8.2
+- Minor bug fixes for parsing event dates
+
 ## 0.8.1
-- Fixed bug with parsing multiple exdates in same row 
+- Fixed bug with parsing multiple exdates in same row
 
 ## 0.8.0
 - Added CalDAV exceptions for updating/deleting repeated events
@@ -26,9 +29,9 @@
 
 ## 0.6.1
 - Added resizing events in days view
-- Improved drag to create new event 
-- Added dragging overflowing events in month view 
-- Fixed not logging out when session has expired 
+- Improved drag to create new event
+- Added dragging overflowing events in month view
+- Fixed not logging out when session has expired
 - Fixed showing wrong webcal exceptions
 - Improved parsing event dates
 - Default redirect to calendar application from domain root
@@ -46,7 +49,7 @@
 
 ## 0.5.1
 - Added current time line
-- UI polishing 
+- UI polishing
 - Added alert warning when opening app in Firefox incognito mode
 - Initial view is scrolled to current hour
 - Better error handling for event parsing with more informative logs
