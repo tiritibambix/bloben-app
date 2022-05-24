@@ -1,4 +1,7 @@
 
+## 0.8.3
+- Minor bug fix for parsing rrule
+
 ## 0.8.2
 - Minor bug fixes for parsing event dates
 
