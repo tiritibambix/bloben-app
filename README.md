@@ -27,6 +27,11 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 <a href =https://hub.docker.com/u/bloben>Docker</a><br>
 
 ###
+### Acknowledgment:
+<a href =https://www.behance.net/federicaprunotto>Federica Prunotto</a> for logo, app icon and help with design <br>
+<a href =https://jb.gg/OpenSourceSupport>JetBrains</a> for providing license for open source projects
+
+###
 ### Roadmap:
 - E2E encrypted data
 - notes
