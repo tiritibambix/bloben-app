@@ -1,4 +1,8 @@
 
+## 0.8.4
+- Updated calendar package with fix for agenda layout and parsing strings
+- User can log in with pressing enter key
+
 ## 0.8.3
 - Minor bug fix for parsing rrule
 
