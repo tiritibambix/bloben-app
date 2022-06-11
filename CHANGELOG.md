@@ -1,4 +1,10 @@
 
+## 0.8.5
+- Fixed missing all day events in day view
+- Overnight event is now shown in two day columns
+- Added fallback to system timezone when creating event for calendar with unknown timezone
+- Calendar table will stretch better to fit screen
+
 ## 0.8.4
 - Updated calendar package with fix for agenda layout and parsing strings
 - User can log in with pressing enter key
