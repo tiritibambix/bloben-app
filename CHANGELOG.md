@@ -1,4 +1,7 @@
 
+## 0.8.6
+- Added fallback and logger for invalid calendar timezone
+
 ## 0.8.5
 - Fixed missing all day events in day view
 - Overnight event is now shown in two day columns
