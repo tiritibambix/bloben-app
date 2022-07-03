@@ -1,4 +1,8 @@
 
+## 0.9.1
+- Fixed parsing attendees
+- Added scrolling to current hour in time picker
+
 ## 0.9.0
 - Added imap support, so you can receive status updates from event participants
 - You can set mailto address for webcal events for handling different event statuses like rejected, tentative or accepted
