@@ -1,4 +1,9 @@
 
+## 0.10.0
+- Added basic search in events
+- Added alarms for webcalendars
+- Fixed stacking events 
+
 ## 0.9.1
 - Fixed parsing attendees
 - Added scrolling to current hour in time picker
