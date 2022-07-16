@@ -9,6 +9,8 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 - CalDAV calendars
 - email invites
 - webcalendars
+- notifications
+- dark theme
 
 ### <a href =https://docs.bloben.com/docs/intro>Installation</a><br>
 ### <a href ='https://demo.bloben.com/api/v1/users/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/calendar?demo=true'>Demo Calendar</a><br>
@@ -25,10 +27,13 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 <a href =https://hub.docker.com/u/bloben>Docker</a><br>
 
 ###
+### Acknowledgment:
+<a href =https://www.behance.net/federicaprunotto>Federica Prunotto</a> for logo, app icon and help with design <br>
+<a href =https://jb.gg/OpenSourceSupport>JetBrains</a> for providing license for open source projects
+
+###
 ### Roadmap:
-- notifications
 - E2E encrypted data
 - notes
 - mobile view
-- dark theme
 - offline support
