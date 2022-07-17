@@ -13,7 +13,7 @@ services:
     restart: always
 
   databaseBlobenSTAGING:
-    image: 'postgres:13.6-bullseye'
+    image: 'postgres:13.7-bullseye'
     container_name: databaseBlobenSTAGING
     env_file:
       - .env
@@ -24,7 +24,7 @@ services:
     restart: always
 
   redisBlobenSTAGING:
-    image: redis:6.2.6-bullseye
+    image: redis:7.0.3-bullseye
     container_name: redisBlobenSTAGING
     volumes:
       - redisBlobenDataSTAGING:/data
