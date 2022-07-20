@@ -1,4 +1,16 @@
 
+## 0.11.0
+- added calendar sharing 
+  - share from settings
+  - per link sharing preferences
+  - share with link or send email invite
+  - enable/disable link or set expiration
+  - set layout for each shared link
+- enabled search for demo users
+- fixed bug preventing saving longer texts in notes
+- fixed date picker layout, added weekdays to header
+
+
 ## 0.10.0
 - Added basic search in events
 - Added alarms for webcalendars
