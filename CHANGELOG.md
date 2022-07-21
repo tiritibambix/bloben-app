@@ -1,4 +1,7 @@
 
+## 0.11.1
+- minor bug fixes
+
 ## 0.11.0
 - added calendar sharing 
   - share from settings
