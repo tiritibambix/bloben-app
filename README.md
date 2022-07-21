@@ -7,6 +7,7 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 
 ### Features
 - CalDAV calendars
+- calendar sharing
 - email invites
 - webcalendars
 - notifications
