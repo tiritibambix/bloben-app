@@ -1,4 +1,7 @@
 
+## 0.11.2
+- fixed creating calendar for some CalDAV servers
+
 ## 0.11.1
 - minor bug fixes
 
