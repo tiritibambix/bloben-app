@@ -1,4 +1,8 @@
 
+## 0.12.0
+- added event duplication (single and multiple)
+- improved layout for shared calendars modal
+
 ## 0.11.2
 - fixed creating calendar for some CalDAV servers
 
