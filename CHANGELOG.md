@@ -1,4 +1,8 @@
 
+## 0.13.0
+- added CardDAV support for contacts. CardDAV account needs to be added as separate account (dropdown option for DAV account type).
+- minor bug fixes
+
 ## 0.12.0
 - added event duplication (single and multiple)
 - improved layout for shared calendars modal
