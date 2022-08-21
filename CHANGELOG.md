@@ -1,4 +1,9 @@
 
+## 0.14.0
+- opening locations via provider (OpenStreetMap by default or Google Maps - change them in admin panel)
+- fixed bug when event was created from calendar header
+- minor bug fixes
+
 ## 0.13.0
 - added CardDAV support for contacts. CardDAV account needs to be added as separate account (dropdown option for DAV account type).
 - minor bug fixes
