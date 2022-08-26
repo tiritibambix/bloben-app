@@ -1,4 +1,7 @@
 
+## 0.14.1
+- minor bug fixes
+
 ## 0.14.0
 - opening locations via provider (OpenStreetMap by default or Google Maps - change them in admin panel)
 - fixed bug when event was created from calendar header
