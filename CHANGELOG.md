@@ -1,3 +1,5 @@
+## 0.14.2
+- increased limit for request body
 
 ## 0.14.1
 - minor bug fixes
