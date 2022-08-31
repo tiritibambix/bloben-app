@@ -1,3 +1,7 @@
+## 0.15.0
+- added optional two factor auth for both admin and user account
+- style improvements for responsive design
+
 ## 0.14.2
 - increased limit for request body
 
