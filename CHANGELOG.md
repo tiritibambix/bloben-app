@@ -1,3 +1,6 @@
+## 0.15.1
+- fixed error when updating event
+
 ## 0.15.0
 - added optional two factor auth for both admin and user account
 - style improvements for responsive design
