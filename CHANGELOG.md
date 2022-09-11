@@ -1,3 +1,8 @@
+## 0.15.2
+- added to option to select language in user's settings (fixes problem with some webcal events in wrong language)
+- fixed issues with timezones
+- fixed separated letters in events 
+
 ## 0.15.1
 - fixed error when updating event
 
