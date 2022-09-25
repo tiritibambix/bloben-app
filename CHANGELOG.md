@@ -1,3 +1,7 @@
+## 0.15.3
+- fixed not creating alarms for repeated events
+- minor bug fixes
+
 ## 0.15.2
 - added to option to select language in user's settings (fixes problem with some webcal events in wrong language)
 - fixed issues with timezones
