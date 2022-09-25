@@ -1,3 +1,51 @@
+## 0.15.2
+- added to option to select language in user's settings (fixes problem with some webcal events in wrong language)
+- fixed issues with timezones
+- fixed separated letters in events 
+
+## 0.15.1
+- fixed error when updating event
+
+## 0.15.0
+- added optional two factor auth for both admin and user account
+- style improvements for responsive design
+
+## 0.14.2
+- increased limit for request body
+
+## 0.14.1
+- minor bug fixes
+
+## 0.14.0
+- opening locations via provider (OpenStreetMap by default or Google Maps - change them in admin panel)
+- fixed bug when event was created from calendar header
+- minor bug fixes
+
+## 0.13.0
+- added CardDAV support for contacts. CardDAV account needs to be added as separate account (dropdown option for DAV account type).
+- minor bug fixes
+
+## 0.12.0
+- added event duplication (single and multiple)
+- improved layout for shared calendars modal
+
+## 0.11.2
+- fixed creating calendar for some CalDAV servers
+
+## 0.11.1
+- minor bug fixes
+
+## 0.11.0
+- added calendar sharing 
+  - share from settings
+  - per link sharing preferences
+  - share with link or send email invite
+  - enable/disable link or set expiration
+  - set layout for each shared link
+- enabled search for demo users
+- fixed bug preventing saving longer texts in notes
+- fixed date picker layout, added weekdays to header
+
 
 ## 0.10.0
 - Added basic search in events

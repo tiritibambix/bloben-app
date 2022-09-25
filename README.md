@@ -7,14 +7,31 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 
 ### Features
 - CalDAV calendars
+- calendar sharing
 - email invites
 - webcalendars
 - notifications
 - dark theme
 
+## Breaking change - docker-compose files names
+To handle future upgrades for Postgres dependencies cleaner, original docker-compose.yml file will be removed.
+
+If you have been already using Bloben with Postgres 13.*, you will have to start app with docker-compose-pg13.yml file.
+
+For new users, it is recommended to use the latest Postgres 14.* with file docker-compose-pg14.yml.
+
+Example:
+``docker-compose -f docker-compose-pg13.yml up -d``
+
+**Warning**: Using different Postgres version in docker-compose won't work without migrating your data.
+
+For database upgrade refer to https://docs.bloben.com/docs/database-upgrade
+
+###
+
 ### <a href =https://docs.bloben.com/docs/intro>Installation</a><br>
-### <a href ='https://demo.bloben.com/api/v1/users/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/calendar?demo=true'>Demo Calendar</a><br>
-### <a href ='https://demo.bloben.com/api/v1/users/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/tasks?demo=true'>Demo Tasks</a><br>
+### <a href ='https://demo.bloben.com/api/app/v1/auth/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/calendar?demo=true'>Demo Calendar</a><br>
+### <a href ='https://demo.bloben.com/api/app/v1/auth/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/tasks?demo=true'>Demo Tasks</a><br>
 
 ### <a href ='https://join.slack.com/t/bloben-app/shared_invite/zt-14jiw74ua-LgQfkMwqf7NY64xGtTB3fg'>Slack</a><br>
 
