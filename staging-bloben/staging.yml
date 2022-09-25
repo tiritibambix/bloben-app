@@ -12,19 +12,19 @@ services:
       - '127.0.0.1:8083:80'
     restart: always
 
-  databaseBlobenSTAGING:
-    image: 'postgres:13.7-bullseye'
-    container_name: databaseBlobenSTAGING
+  databaseBlobenSTAGING14:
+    image: 'postgres:14.5-bullseye'
+    container_name: databaseBlobenSTAGING14
     env_file:
       - .env
     volumes:
-      - databaseBlobenDataSTAGING:/var/lib/postgresql/data
+      - databaseBlobenDataSTAGING14:/var/lib/postgresql/data
     ports:
       - '8004:5432'
     restart: always
 
   redisBlobenSTAGING:
-    image: redis:7.0.3-bullseye
+    image: redis:7.0.5-bullseye
     container_name: redisBlobenSTAGING
     volumes:
       - redisBlobenDataSTAGING:/data
@@ -34,7 +34,7 @@ services:
 #
 #
 volumes:
-  databaseBlobenDataSTAGING:
-    name: databaseBlobenDataSTAGING
+  databaseBlobenDataSTAGING14:
+    name: databaseBlobenDataSTAGING14
   redisBlobenDataSTAGING:
     name: redisBlobenDataSTAGING
