@@ -41,6 +41,6 @@ jobs:
         with:
           context: .
           push: true
-          file: Dockerfile.staging
+          file: staging-bloben/Dockerfile.staging
           build-args: DOCKER_IMAGE_VERSION=staging
           tags: bloben/app:staging

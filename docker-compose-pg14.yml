@@ -12,13 +12,13 @@ services:
       - '127.0.0.1:8081:80'
     restart: always
 
-  databaseBloben:
-    image: 'postgres:13.8-bullseye'
-    container_name: databaseBloben
+  databaseBloben14:
+    image: 'postgres:14.5-bullseye'
+    container_name: databaseBloben14
     env_file:
       - .env
     volumes:
-      - databaseBlobenData:/var/lib/postgresql/data
+      - databaseBlobenData14:/var/lib/postgresql/data
     ports:
       - '5432'
     restart: always
@@ -34,7 +34,7 @@ services:
 #
 #
 volumes:
-  databaseBlobenData:
-    name: databaseBlobenData
+  databaseBlobenData14:
+    name: databaseBlobenData14
   redisBlobenData:
     name: redisBlobenData
