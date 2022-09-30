@@ -1,3 +1,7 @@
+## 0.15.4
+- fixed bug when creating event with attendees
+- fixed padding for event time
+
 ## 0.15.3
 - fixed not creating alarms for repeated events
 - minor bug fixes
