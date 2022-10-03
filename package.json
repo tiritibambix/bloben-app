@@ -1,0 +1,25 @@
+{
+  "name": "bloben-app",
+  "version": "0.15.4",
+  "description": "",
+  "baseUrl": "./",
+  "license": "AGPL",
+  "author": "nibdo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nibdo/bloben-app"
+  },
+  "scripts": {
+    "dev:up": "docker-compose -f ./dev-bloben/dev.yml up -d",
+    "dev:down": "docker-compose -f ./dev-bloben/dev.yml down",
+    "dev:update": "sh dev-bloben/build-dev.sh",
+    "staging:up": "docker-compose -f ./staging-bloben/staging.yml up -d",
+    "staging:down": "docker-compose -f ./staging-bloben/staging.yml down",
+    "staging:build": "docker build -t bloben/app:staging -f staging-bloben/Dockerfile.staging .",
+    "staging:update": "sh staging-bloben/staging.sh",
+    "production:up": "docker-compose -f docker-compose-pg14.yml up -d",
+    "production:down": "docker-compose -f docker-compose-pg14.yml down",
+    "production:build": "docker build -t bloben/app:latest -f Dockerfile .",
+    "production:update": "sh update.sh"
+  }
+}
