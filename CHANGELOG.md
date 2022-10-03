@@ -1,3 +1,7 @@
+## 0.15.5
+- fixed account urls
+- refactored DAV requests
+
 ## 0.15.4
 - fixed bug when creating event with attendees
 - fixed padding for event time
