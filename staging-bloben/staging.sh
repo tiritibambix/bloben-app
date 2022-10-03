@@ -1,4 +1,4 @@
-docker-compose -f staging.yml down
+docker-compose -f staging-bloben/staging.yml down
 docker pull bloben/app:staging
-docker-compose -f staging.yml up -d
- 
+docker-compose -f staging-bloben/staging.yml up -d
+
