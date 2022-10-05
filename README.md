@@ -32,8 +32,6 @@ For database upgrade refer to https://docs.bloben.com/docs/database-upgrade
 ### <a href =https://docs.bloben.com/docs/intro>Installation</a><br>
 ### <a href ='https://demo.bloben.com/api/app/v1/auth/login-demo?username=demo&password=Bg8v16a4q7gvC&redirect=https://demo.bloben.com/calendar?demo=true'>Demo Calendar</a><br>
 
-### <a href ='https://join.slack.com/t/bloben-app/shared_invite/zt-14jiw74ua-LgQfkMwqf7NY64xGtTB3fg'>Slack</a><br>
-
 ###
 ### Source
 <a href =https://github.com/nibdo/bloben-admin>Admin dashboard</a><br>
