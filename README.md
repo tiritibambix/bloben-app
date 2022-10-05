@@ -1,6 +1,6 @@
 ## Bloben App [BETA]
 
-Self-hosted server-client Calendar and Tasks application for connecting to CalDav servers.
+Self-hosted web client Calendar application for connecting to CalDav servers.
 
 #### Warning: App is in development state, don't use for critical production data
 You can use other alternatives like <a href=https://github.com/agendav/agendav>AgenDAV</a>.
