@@ -1,3 +1,6 @@
+## 0.15.6
+- fixed wrong event position on day when DST happens
+
 ## 0.15.5
 - fixed account urls
 - refactored DAV requests
