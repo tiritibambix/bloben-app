@@ -1,3 +1,8 @@
+## 0.16.0
+- added tasks to calendar
+- added separate page for all tasks
+- admin can now edit username and password for user
+
 ## 0.15.6
 - fixed wrong event position on day when DST happens
 
