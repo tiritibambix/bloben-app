@@ -10,6 +10,7 @@ You can use other alternatives like <a href=https://github.com/agendav/agendav>A
 - calendar sharing
 - email invites
 - webcalendars
+- tasks
 - notifications
 - dark theme
 
