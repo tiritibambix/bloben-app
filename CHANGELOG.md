@@ -1,3 +1,7 @@
+## 0.16.1
+- fixed syncing tasks
+- fixed task icon position
+
 ## 0.16.0
 - added tasks to calendar
 - added separate page for all tasks
