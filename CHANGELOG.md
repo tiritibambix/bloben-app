@@ -1,3 +1,6 @@
+## 0.16.2
+- fixed error with getting public events
+
 ## 0.16.1
 - fixed syncing tasks
 - fixed task icon position
