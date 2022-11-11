@@ -1,3 +1,7 @@
+## 0.16.3
+- added support for ending date timezone
+- fixed timezone issues
+
 ## 0.16.2
 - fixed error with getting public events
 
