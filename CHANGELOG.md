@@ -1,3 +1,8 @@
+## 0.16.4
+- fixed cancel method in event invite
+- fixed bug in search
+- updated event view for mobiles
+
 ## 0.16.3
 - added support for ending date timezone
 - fixed timezone issues
