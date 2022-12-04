@@ -1,3 +1,27 @@
+## 0.16.4
+- fixed cancel method in event invite
+- fixed bug in search
+- updated event view for mobiles
+
+## 0.16.3
+- added support for ending date timezone
+- fixed timezone issues
+
+## 0.16.2
+- fixed error with getting public events
+
+## 0.16.1
+- fixed syncing tasks
+- fixed task icon position
+
+## 0.16.0
+- added tasks to calendar
+- added separate page for all tasks
+- admin can now edit username and password for user
+
+## 0.15.6
+- fixed wrong event position on day when DST happens
+
 ## 0.15.5
 - fixed account urls
 - refactored DAV requests
