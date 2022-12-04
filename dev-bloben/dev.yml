@@ -13,7 +13,7 @@ services:
     restart: always
 
   databaseBlobenDEV14:
-    image: 'postgres:14.5-bullseye'
+    image: 'postgres:14.6-bullseye'
     container_name: databaseBlobenDEV14
     env_file:
       - .env
