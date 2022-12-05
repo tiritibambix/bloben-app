@@ -1,5 +1,5 @@
 ## 0.17.0
-- added automatic event import from email invites to preferred calendar
+- added automatic [event import from email](https://docs.bloben.com/docs/Emails/ImportingEventsFromEmail) invites to preferred calendar 
 - option to trust browser when 2FA is enabled
 - fallback for precondition failed errors to re-fetch new etag for CalDAV events
 - added organizer name to event view
