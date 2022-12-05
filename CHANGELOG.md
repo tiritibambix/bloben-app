@@ -1,3 +1,11 @@
+## 0.17.0
+- added automatic event import from email invites to preferred calendar
+- option to trust browser when 2FA is enabled
+- fallback for precondition failed errors to re-fetch new etag for CalDAV events
+- added organizer name to event view
+- added button for email sync from email settings
+- multiple fixes for repeated events
+
 ## 0.16.4
 - fixed cancel method in event invite
 - fixed bug in search
