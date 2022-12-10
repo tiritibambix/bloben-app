@@ -1,3 +1,7 @@
+## 0.17.2
+- fixed timezones bug
+- fixed changing week day start
+
 ## 0.17.1
 - added support for more timezones
 - fix selecting default calendar
