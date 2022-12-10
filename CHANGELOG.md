@@ -1,3 +1,7 @@
+## 0.17.1
+- added support for more timezones
+- fix selecting default calendar
+
 ## 0.17.0
 - added automatic event import from email invites to preferred calendar
 - option to trust browser when 2FA is enabled
