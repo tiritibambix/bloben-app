@@ -1,3 +1,6 @@
+## 0.17.3
+- added back support for REDIS_URL env
+
 ## 0.17.2
 - fixed timezones bug
 - fixed changing week day start
