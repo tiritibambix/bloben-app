@@ -1,3 +1,10 @@
+## 0.18.0
+- it is now possible to add multiple email configurations per user
+  - each configuration can have multiple address aliases
+  - adding alias is required for importing event from email
+  - when creating invite, you can change organizer based on your aliases
+- added dual timezone view in event view modal and edit modal
+
 ## 0.17.3
 - added back support for REDIS_URL env
 
