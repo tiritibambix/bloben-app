@@ -1,3 +1,6 @@
+## 0.18.1
+- added option to use Redis Sentinel cluster thanks to @shotcowboystyle
+
 ## 0.18.0
 - it is now possible to add multiple email configurations per user
   - each configuration can have multiple address aliases
