@@ -37,6 +37,7 @@ For database upgrade refer to https://docs.bloben.com/docs/database-upgrade
 ### Source
 <a href =https://github.com/nibdo/bloben-admin>Admin dashboard</a><br>
 <a href =https://github.com/nibdo/bloben-calendar>Calendar client</a><br>
+<a href =https://github.com/nibdo/bloben-electron>Electron app</a><br>
 <a href =https://github.com/nibdo/bloben-api>Server app</a><br>
 <a href =https://hub.docker.com/u/bloben>Docker</a><br>
 
