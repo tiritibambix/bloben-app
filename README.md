@@ -1,5 +1,5 @@
 # Disclaimer !  
-I am not the author. Author was Nibdo (https://github.com/nibdo/bloben-app)  
+I am not the author. Author was [Nibdo](https://github.com/nibdo) (https://github.com/nibdo/bloben-app)  
 This repo is an archive for educational purpose.
 
 _If you're a noob and want a tutorial on how to deploy, go [here](https://github.com/tiritibambix/bloben-app/blob/main/Noob_Tutorial.md)._
