@@ -1,3 +1,13 @@
+# Disclaimer !  
+I am not the author. Author was Nibdo (https://github.com/nibdo/bloben-app)  
+This repo is an archive for educational purpose.
+
+## Bloben App [BETA]
+
+Self-hosted web client Calendar application for connecting to CalDav servers.
+
+If you're a noob and want a tutorial on how to deploy, go [here](https://github.com/tiritibambix/bloben-app/blob/main/Noob_Tutorial.md).
+
 ## Bloben App [BETA]
 
 Self-hosted web client Calendar application for connecting to CalDav servers.
