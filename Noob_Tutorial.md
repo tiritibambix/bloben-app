@@ -37,5 +37,5 @@ Run file docker-compose.yml
 docker-compose -f docker-compose.yml up -d
 ```
 ***
-access admin panel at https://your.bloben.tld/admin
-acess calendar at https://your.bloben.tld/calendar
+access admin panel at https://your.bloben.tld/admin  
+access calendar at https://your.bloben.tld/calendar
